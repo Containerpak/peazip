@@ -1,7 +1,7 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:20e7a86622213264d4b398d2872ce14133973c2cfaf7bd21e79f764c550be9f8 \
-    https://github.com/peazip/PeaZip/releases/download/11.1.0/peazip_11.1.0.LINUX.Qt6-1_amd64.deb \
+ADD --checksum=sha256:11af7ca6fd633566eb8de969b43ca257b8bce759421775c8c7bbb66105406e58 \
+    https://github.com/peazip/PeaZip/releases/download/11.2.0/peazip_11.2.0.LINUX.Qt6-1_amd64.deb \
     /tmp/peazip.deb
 
 FROM ghcr.io/containerpak/mesa64:main
