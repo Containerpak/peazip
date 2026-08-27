@@ -1,1 +1,49 @@
-{"$schema":"https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json","manifest_version":"2.0","name":"PeaZip","description":"Archive manager and file compression utility.","version":"11.2.0","image":"ghcr.io/containerpak/peazip:main","binaries":["/usr/bin/peazip"],"desktop_entries":["/usr/share/applications/peazip.desktop"],"dependencies":[],"addons":[],"idle_time":0,"override":{"socketX11":true,"socketWayland":true,"socketPulseAudio":true,"socketSessionBus":true,"socketSystemBus":false,"socketSshAgent":false,"socketCups":false,"socketGpgAgent":false,"socketAtSpiBus":true,"socketBluetooth":false,"deviceDri":true,"deviceKvm":false,"deviceShm":true,"deviceAlsa":false,"deviceVideo":false,"deviceFuse":false,"deviceTun":false,"deviceUsb":false,"deviceAll":false,"notification":true,"openURI":true,"filesystem":[{"path":"home","access":"read-write"}],"env":[],"network":true,"process":false,"userNamespaces":false,"memoryMaxMB":0,"cpuQuota":0,"pidsMax":0,"asRoot":false,"allowedHostCommands":[]}}
+{
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
+  "name": "PeaZip",
+  "description": "Archive manager and file compression utility.",
+  "version": "11.2.0",
+  "image": "ghcr.io/containerpak/peazip@sha256:cffb4c91369d8cf9a9f6762ae19c8b863cb49cd16cf07847cb3a9a61f78f3c77",
+  "binaries": [
+    "/usr/bin/peazip"
+  ],
+  "desktop_entries": [
+    "/usr/share/applications/peazip.desktop"
+  ],
+  "dependencies": [],
+  "addons": [],
+  "idle_time": 0,
+  "override": {
+    "socketWayland": true,
+    "socketPulseAudio": true,
+    "socketSshAgent": false,
+    "socketCups": false,
+    "socketGpgAgent": false,
+    "deviceDri": true,
+    "deviceKvm": false,
+    "deviceShm": true,
+    "deviceAlsa": false,
+    "deviceVideo": false,
+    "deviceFuse": false,
+    "deviceTun": false,
+    "deviceUsb": false,
+    "deviceAll": false,
+    "notification": true,
+    "openURI": true,
+    "filesystem": [
+      {
+        "path": "home",
+        "access": "read-write"
+      }
+    ],
+    "env": [],
+    "network": true,
+    "process": false,
+    "userNamespaces": false,
+    "memoryMaxMB": 0,
+    "cpuQuota": 0,
+    "pidsMax": 0,
+    "asRoot": false
+  }
+}
