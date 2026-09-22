@@ -4,7 +4,7 @@
   "name": "PeaZip",
   "description": "Archive manager and file compression utility.",
   "version": "11.2.0",
-  "image": "ghcr.io/containerpak/peazip@sha256:301244d0e9a16cf320250d30417c4fefd1fe3fab57b2d7ca977e76659d5c08df",
+  "image": "ghcr.io/containerpak/peazip@sha256:91232933ad4164aa37b0dcecd52224e060114cc7005abf72c12858039c3b114a",
   "binaries": [
     "/usr/bin/peazip"
   ],
